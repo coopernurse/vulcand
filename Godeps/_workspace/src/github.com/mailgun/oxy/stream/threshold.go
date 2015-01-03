@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/utils"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/predicate"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/utils"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/predicate"
 )
 
 func IsValidExpression(expr string) bool {

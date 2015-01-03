@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/buger/goterm"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
-	"github.com/mailgun/vulcand/engine"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/buger/goterm"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
+	"github.com/coopernurse/vulcand/engine"
 )
 
 func frontendsOverview(frontends []engine.Frontend) string {

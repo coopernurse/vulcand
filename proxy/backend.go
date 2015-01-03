@@ -5,7 +5,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/mailgun/vulcand/engine"
+	"github.com/coopernurse/vulcand/engine"
 )
 
 type backend struct {

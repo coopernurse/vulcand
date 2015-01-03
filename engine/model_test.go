@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/mailgun/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
-	"github.com/mailgun/vulcand/plugin"
-	"github.com/mailgun/vulcand/plugin/connlimit"
+	. "github.com/coopernurse/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
+	"github.com/coopernurse/vulcand/plugin"
+	"github.com/coopernurse/vulcand/plugin/connlimit"
 )
 
 func TestBackend(t *testing.T) { TestingT(t) }

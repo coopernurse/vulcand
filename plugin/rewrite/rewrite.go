@@ -9,10 +9,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/utils"
-	"github.com/mailgun/vulcand/plugin"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/utils"
+	"github.com/coopernurse/vulcand/plugin"
 )
 
 const Type = "rewrite"

@@ -3,7 +3,7 @@ package secret
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/mailgun/vulcand/engine"
+	"github.com/coopernurse/vulcand/engine"
 )
 
 type sealedValue struct {

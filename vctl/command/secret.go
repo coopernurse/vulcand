@@ -5,8 +5,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/mailgun/vulcand/secret"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/coopernurse/vulcand/secret"
 )
 
 func NewKeyCommand(cmd *Command) cli.Command {

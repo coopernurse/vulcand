@@ -5,18 +5,18 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
-	oxytest "github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/testutils"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/scroll"
-	"github.com/mailgun/vulcand/engine"
-	"github.com/mailgun/vulcand/engine/memng"
-	"github.com/mailgun/vulcand/plugin/connlimit"
-	"github.com/mailgun/vulcand/plugin/registry"
-	"github.com/mailgun/vulcand/proxy"
-	"github.com/mailgun/vulcand/supervisor"
-	"github.com/mailgun/vulcand/testutils"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
+	oxytest "github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/testutils"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/scroll"
+	"github.com/coopernurse/vulcand/engine"
+	"github.com/coopernurse/vulcand/engine/memng"
+	"github.com/coopernurse/vulcand/plugin/connlimit"
+	"github.com/coopernurse/vulcand/plugin/registry"
+	"github.com/coopernurse/vulcand/proxy"
+	"github.com/coopernurse/vulcand/supervisor"
+	"github.com/coopernurse/vulcand/testutils"
 
-	. "github.com/mailgun/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
+	. "github.com/coopernurse/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
 )
 
 func TestApi(t *testing.T) { TestingT(t) }

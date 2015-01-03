@@ -6,11 +6,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/forward"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/testutils"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/utils"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/timetools"
-	. "github.com/mailgun/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/forward"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/testutils"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/utils"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/timetools"
+	. "github.com/coopernurse/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
 )
 
 type RBSuite struct {

@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/utils"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/utils"
 )
 
 // Weight is an optional functional argument that sets weight of the server

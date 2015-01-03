@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/testutils"
-	. "github.com/mailgun/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
-	"github.com/mailgun/vulcand/engine"
-	. "github.com/mailgun/vulcand/testutils"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/testutils"
+	. "github.com/coopernurse/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
+	"github.com/coopernurse/vulcand/engine"
+	. "github.com/coopernurse/vulcand/testutils"
 )
 
 func TestServer(t *testing.T) { TestingT(t) }

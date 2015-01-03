@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
-	"github.com/mailgun/vulcand/plugin/registry"
-	"github.com/mailgun/vulcand/vctl/command"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
+	"github.com/coopernurse/vulcand/plugin/registry"
+	"github.com/coopernurse/vulcand/vctl/command"
 )
 
 var vulcanUrl string

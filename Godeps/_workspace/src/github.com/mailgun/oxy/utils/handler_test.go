@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	. "github.com/mailgun/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
+	. "github.com/coopernurse/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
 )
 
 type UtilsSuite struct{}

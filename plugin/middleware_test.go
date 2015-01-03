@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	. "github.com/mailgun/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
+	. "github.com/coopernurse/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
 	"testing"
 )
 

@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"sort"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/memmetrics"
-	"github.com/mailgun/vulcand/engine"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/memmetrics"
+	"github.com/coopernurse/vulcand/engine"
 )
 
 func (mx *mux) frontendStats(key engine.FrontendKey) (*engine.RoundTripStats, error) {

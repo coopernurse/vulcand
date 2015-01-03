@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/mailgun/vulcand/engine"
-	"github.com/mailgun/vulcand/plugin/ratelimit"
+	"github.com/coopernurse/vulcand/engine"
+	"github.com/coopernurse/vulcand/plugin/ratelimit"
 )
 
 var lastId int64

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/metrics"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/metrics"
 )
 
 type connTracker struct {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/predicate"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/predicate"
 )
 
 type hpredicate func(*CircuitBreaker) bool

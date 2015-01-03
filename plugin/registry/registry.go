@@ -2,11 +2,11 @@
 package registry
 
 import (
-	"github.com/mailgun/vulcand/plugin"
-	"github.com/mailgun/vulcand/plugin/cbreaker"
-	"github.com/mailgun/vulcand/plugin/connlimit"
-	"github.com/mailgun/vulcand/plugin/ratelimit"
-	"github.com/mailgun/vulcand/plugin/rewrite"
+	"github.com/coopernurse/vulcand/plugin"
+	"github.com/coopernurse/vulcand/plugin/cbreaker"
+	"github.com/coopernurse/vulcand/plugin/connlimit"
+	"github.com/coopernurse/vulcand/plugin/ratelimit"
+	"github.com/coopernurse/vulcand/plugin/rewrite"
 )
 
 func GetRegistry() *plugin.Registry {

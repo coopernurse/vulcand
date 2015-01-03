@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/timetools"
-	"github.com/mailgun/vulcand/engine"
-	"github.com/mailgun/vulcand/proxy"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/timetools"
+	"github.com/coopernurse/vulcand/engine"
+	"github.com/coopernurse/vulcand/proxy"
 )
 
 // Supervisor watches changes to the dynamic backends and applies those changes to the server in real time.

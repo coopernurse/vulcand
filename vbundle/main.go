@@ -7,8 +7,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/coopernurse/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
 )
 
 var vulcanUrl string
